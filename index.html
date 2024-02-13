@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora de Ganancias</title>
+<script defer src="./js/main.js"></script>
+</head>
+<body>
+
+<h2>Calculadora de Ganancias con Interés Compuesto</h2>
+<h3>Esta calculadora le permitirá calcular sus ganacias invirtiendo y reinvirtiendo un capital X a lo largo de X años. Recuerde que el interes compuesto es obtener ganancias por interes sobre anteriores ganancias por interes</h3>
+
+<label for="montoPrincipal">Monto Principal:</label>
+<input type="number" id="montoPrincipal" placeholder="Ingrese el monto principal en dolares">
+
+<label for="tasaInteres">Tasa de Interés Anual:</label>
+<input type="number" id="tasaInteres" placeholder="Ingrese la tasa de interés anual (%)">
+
+<label for="tiempoInversion">Tiempo de Inversión (en años):</label>
+<input type="number" id="tiempoInversion" placeholder="Ingrese el tiempo de inversión en años">
+
+<button onclick="calcularGananciasConInteresCompuesto()">Calcular Ganancias</button>
+
+<h3>Resultado:</h3>
+<p id="resultado"></p>
+
+</body>
+</html>
+
